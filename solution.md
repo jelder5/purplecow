@@ -19,8 +19,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 # changing ports
-In the root directory package-json file, you can chnge the port by adding this line:
-  "proxy":"http://localhost:3001/"
+In the root directory package-json file, you can chnge the port by changing this line:
+"start": "PORT=3006 react-scripts start"
 
 # Future features
 I could not find a "currentCount" function in countapi so I would like to initial the app by hitting the counter and then passing in the subtract function if available. Otherwise, I would store the value in redis or a file so users can see the current value when first loading the page.
